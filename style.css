@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: 'Overpass', sans-serif;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+}
+
+.item-container {
+    padding: 10px;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.item {
+    border: solid 2px black;
+    width: 10rem;
+    height: auto;
+}
+
+.item img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.item p, h3 {
+    background-color: wheat;
+    text-align: center;
+}
+
